@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servico.ServicosFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistema de gestão de qualidade"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="O vocabulário deste parafraseador contém uma grande quantidade de palavras/frases raras e pode parafrasear o seu conteúdo de várias maneiras aleatórias. Além de ser usado como um recurso útil para parafrasear ou girar um texto, este software baseado na Web também pode ser usado para aprimorar o vocabulário. A inteligência artificial deste gerador de paráfrase é tão sofisticada que é capaz de entender o contexto."
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sistema de gestão de qualidade"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=" Além de ser usado como um recurso útil para parafrasear ou girar um texto, este software baseado na Web também pode ser usado para aprimorar o vocabulário.A inteligência artificial deste gerador de paráfrase é tão sofisticada que é capaz de entender o contexto."
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
